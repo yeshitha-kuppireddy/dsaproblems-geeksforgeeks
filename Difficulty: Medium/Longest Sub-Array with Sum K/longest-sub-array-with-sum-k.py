@@ -3,21 +3,20 @@
 class Solution:
     def lenOfLongestSubarr(self, arr, k):  
         # code here
-        count=0
-        sum=0
-        map={}
-        for i in range(len(arr)):
-            sum+=arr[i]
-            if sum==k:
-                count=i+1
-            if sum-k in map:
-                count=max(count,i-map.get(sum-k))
-            if sum not in map:
-                map[sum]=i
-        return count
-
-
-
+        n=len(arr)
+        hs={}
+        s=0
+        c=0
+        for i in range(0,n):
+            s+=arr[i]
+            if s==k:
+                c=max(c,i+1)
+            if s-k in hs:
+                c=max(c,i-hs[s-k])
+            if s not in hs:
+                hs[s]=i
+        return c
+        
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3

@@ -1,14 +1,14 @@
 class Solution:
     def leaders(self, arr):
         # code here
-        n=len(arr)
-        maxr=0
-        maxe=[]
-        for i in range(n-1,-1,-1):
-            if arr[i]>=maxr:
-                maxe.append(arr[i])
-                maxr=arr[i]
-        return maxe[::-1]
+        m=arr[-1]
+        sol=[]
+        for i in range(len(arr)-1,-1,-1):
+            if arr[i]>=m:
+                m=arr[i]
+                sol.append(arr[i])
+        return sol[::-1]
+
 
 #{ 
  # Driver Code Starts

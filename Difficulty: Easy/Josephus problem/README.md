@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/josephus-problem/1">Josephus problem</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p data-pm-slice="1 1 []"><span style="font-size: 14pt;">You are playing a game with <strong>n</strong> people standing in a circle, numbered from <strong>1 </strong>to<strong> n</strong>. Starting from person 1, every <strong>k<sup>th</sup></strong> person is eliminated in a circular fashion. The process continues until only one person remains.</span><br><span style="font-size: 14pt;">Given integers n and k, return the position (1-based index) of the person who will survive.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 3, k = 2
+<strong>Output: </strong>3<strong>
+Explanation: </strong>There are 3 persons so skipping 1 person i.e 1st person 2nd person will be killed. Thus the safe position is 3.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 5, k = 3
+<strong>Output: </strong>4<strong>
+Explanation: </strong>There are 5 persons so skipping 2 person i.e 3rd person will be killed. Thus the safe position is 4.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong></span><br><span style="font-size: 14pt;">1 ≤ n, k ≤ 20</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Walmart</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
